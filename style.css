@@ -2,13 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: #ffffff;
-  
+
 
 }
 
 /* Navbar */
 
-.navbar {
+.tripon-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,6 +20,7 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
 }
+
 /*.navbar {
   display: flex;
   justify-content: space-between;
@@ -70,7 +71,7 @@ body {
   margin: 0;
   width: 150px;
   border-radius: 6px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   display: none;
 }
 
@@ -107,7 +108,7 @@ nav a {
   cursor: pointer;
 }
 
-.nav-link {
+.tripon-nav-link {
   border: none;
   background: none;
   color: #333;
@@ -118,7 +119,7 @@ nav a {
   transition: background 0.2s ease;
 }
 
-.nav-link:hover,
+.tripon-nav-link:hover,
 .contact-btn:hover {
   background: #f0f5f0;
 }
